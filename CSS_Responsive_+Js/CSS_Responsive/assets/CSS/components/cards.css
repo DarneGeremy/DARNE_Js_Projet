@@ -1,0 +1,18 @@
+.card-perso{
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    width: 60%;
+}
+
+.card-perso .card-image{
+    height: 115px;
+    width: 20%;
+    object-fit: cover;
+}
+
+.card-perso .card-content{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
