@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&display=swap');
+@import url('components/container.css');
+@import url('components/presentation.css');
+@import url('components/buttoms.css');
+@import url('components/avatar.css');
+@import url('components/navbar.css');
+@import url('components/section.css');
+@import url('components/footer.css');
+@import url('components/cards.css');
+@import url('components/exo.css');
+@import url('components/slider.css');
+@import url('components/effet.css');
+@import url('components/paragraphe.css');
+@import url('components/image.css');
+@import url('components/popup.css');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body{
+    height: 100vh !important;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    background-color: rgb(0, 0, 0) !important;
+    color: rgb(255, 255, 255);
+}
+
+hr{
+    background-color: white;
+    padding: 1px;
+    border: 0;
+ }
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.img-carousel {
+    height: 200px;
+    object-fit: cover;
+}
